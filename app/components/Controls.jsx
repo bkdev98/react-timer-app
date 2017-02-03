@@ -2,8 +2,7 @@ var React = require('react');
 
 var Controls = React.createClass({
   propTypes: {
-    timeStatus: React.PropTypes.string.isRequired,
-    onStatusChange: React.PropTypes.func.isRequired
+    timeStatus: React.PropTypes.string.isRequired
   },
   onStatusChange: function (newStatus) {
     return () => {
